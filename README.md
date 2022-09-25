@@ -8,3 +8,5 @@ Amazing Numbers Project. it is contain 8 stage
 - Stage #3 -> [Source Code & Task Desc](https://github.com/amirelkased/Amazing_Numbers/tree/main/src/Stage3)
 
 - Stage #4 -> [Source Code & Task Desc](https://github.com/amirelkased/Amazing_Numbers/tree/main/src/Stage4)
+
+- Stage #5 -> [Source Code & Task Desc](https://github.com/amirelkased/Amazing_Numbers/tree/main/src/Stage5)
