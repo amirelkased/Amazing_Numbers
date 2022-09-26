@@ -19,24 +19,28 @@ and Spy, Sunny and Square numbers.
 
 Your program should process the user requests. In this stage, your program should:
 
+```
+1. Welcome users;
+2. Display the instructions;
+3. Ask for a request;
+4. If a user enters zero, terminate the program;
+5. If numbers are not natural, print the error message;
+6. If an incorrect property is specified, print the error message and the list of available properties;
+7. For one number, calculate and print the properties of the number;
+8. For two numbers, print the list of numbers with their properties;
+9. For two numbers and one property, print the numbers with this property only;
+10. For two numbers and two properties, print the numbers that have both properties.
+11. If a user specifies mutually exclusive properties, abort the request and warn a user.
+12. Once a request has been processed, continue execution from step 3.
+````
 
-Welcome users;
-Display the instructions;
-Ask for a request;
-If a user enters zero, terminate the program;
-If numbers are not natural, print the error message;
-If an incorrect property is specified, print the error message and the list of available properties;
-For one number, calculate and print the properties of the number;
-For two numbers, print the list of numbers with their properties;
-For two numbers and one property, print the numbers with this property only;
-For two numbers and two properties, print the numbers that have both properties.
-If a user specifies mutually exclusive properties, abort the request and warn a user.
-Once a request has been processed, continue execution from step 3.
 In the current stage, the property names include even, odd, buzz , duck, palindromic , gapful , spy, square, and sunny.
 The test won't check the order of properties, their indentation, and spaces. You may format numbers as you like. Please,
 add the information below:
 
-Instructions
+# Instructions
+
+```
 Supported requests:
 
 - enter a natural number to know its properties;
@@ -47,20 +51,31 @@ Supported requests:
 - two natural numbers and two properties to search for;
 - separate the parameters with one space;
 - enter 0 to exit.
-  Error messages
-  The first parameter should be a natural number or zero.
-  The second parameter should be a natural number.
+```
+# Error messages
+
+  `The first parameter should be a natural number or zero.`
+  
+  `The second parameter should be a natural number.`
+  ```
   The property [SUN] is wrong.
   Available properties: [EVEN, ODD, BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, SQUARE, SUNNY]
+  ```
+  ```
   The properties [HOT, SUN] are wrong.
   Available properties: [EVEN, ODD, BUZZ, DUCK, PALINDROMIC, GAPFUL, SPY, SQUARE, SUNNY]
+  ```
+  ```
   The request contains mutually exclusive properties: [ODD, EVEN]
   There are no numbers with these properties.
-  Examples
-  The greater-than symbol followed by a space (> ) represents the user input. Note that it's not part of the input.
+  ```
+# Examples
 
-Example 1:
+The greater-than symbol followed by a space `(> )` represents the user input. Note that it's not part of the input.
 
+# Example 1:
+
+```cmd
 Welcome to Amazing Numbers!
 
 Supported requests:
@@ -127,3 +142,4 @@ Enter a request: 0
 Goodbye!
 
 Process finished with exit code 0
+```
