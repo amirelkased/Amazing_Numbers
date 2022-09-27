@@ -12,3 +12,5 @@ Amazing Numbers Project. it is contain 8 stage
 - Stage #5 -> [Source Code & Task Desc](https://github.com/amirelkased/Amazing_Numbers/tree/main/src/Stage5)
 
 - Stage #6-> [Source Code & Task Desc](https://github.com/amirelkased/Amazing_Numbers/tree/main/src/Stage6)
+
+- Stage #7-> [Source Code & Task Desc](https://github.com/amirelkased/Amazing_Numbers/tree/main/src/Stage7)
